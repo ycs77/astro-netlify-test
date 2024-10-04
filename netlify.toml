@@ -6,4 +6,4 @@
   NODE_VERSION = "20"
 
 [build.processing.html]
-  pretty_urls = true
+  pretty_urls = false
