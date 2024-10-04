@@ -4,6 +4,3 @@
 
 [build.environment]
   NODE_VERSION = "20"
-
-[build.processing.html]
-  pretty_urls = false
