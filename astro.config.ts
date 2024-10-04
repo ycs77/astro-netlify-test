@@ -4,8 +4,6 @@ import vue from '@astrojs/vue'
 
 export default defineConfig({
   output: 'hybrid',
-  adapter: netlify({
-    edgeMiddleware: true,
-  }),
+  adapter: netlify(),
   integrations: [vue()],
 })
